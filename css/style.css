@@ -20,11 +20,13 @@ body {
 }
 
 #conteiner {
-    background-color: orange;
+    background: orange url(/css/img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
 }
+
+/*///////// TOPO /////////*/
 #topo {
     position: relative;
     background-color: #DFD493;
@@ -120,4 +122,27 @@ body.historia #nav a#historia
 body.imprensa #nav a#imprensa {
     background: #4c461a93;
     color: #FEF4BE;
+}
+
+/*////////////// AREA DE CONTEÚDOS //////////////////*/
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(./img/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(./img/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+footer {
+    clear: both;
+    margin-left: 47%;
 }
