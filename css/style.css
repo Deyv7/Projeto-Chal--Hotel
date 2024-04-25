@@ -128,13 +128,13 @@ body.imprensa #nav a#imprensa {
 #area-principal {
     float: left;
     width: 50%;
-    background: url(./img/bg-area-principal.png) top left repeat-x;
+    background: url(/css/img/bg-area-principal.png) top left repeat-x;
     padding: 15px 0;
 }
 #area-lateral {
     float: right;
     width: 50%;
-    background: url(./img/bg-area-lateral.png) top left repeat-x;
+    background: url(/css/img/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0;
 }
 
